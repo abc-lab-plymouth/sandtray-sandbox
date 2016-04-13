@@ -87,7 +87,7 @@ Window {
             opacity: 0.0
 
             Image {
-                width: 500
+                width: Screen.pixelDensity * 250
                 anchors.centerIn: parent
                 fillMode: Image.PreserveAspectFit
                 source: "rc/709.png"
